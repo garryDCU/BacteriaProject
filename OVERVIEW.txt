@@ -3,3 +3,5 @@ I decided to replace all nulls in the dataset with 0's and as the target column 
 The primaryEDA.ipynb file was made locally using Jupyter Notebook via Anaconda Navigator and then I used Google Colab to create 'tpot.ipynb' as I was having a lot of compatibility issues on my laptop.
 
 The results obtained were reasonable following cross validation with an average score of over 80%. 
+
+To put this result in context, I used a random forest classifier to predict the same thing and got a value of 77.5%.
